@@ -1,0 +1,21 @@
+{
+  "create useEffect": {
+    "prefix": "useEffectsnippte",
+    "body": [
+      "useEffect(() => {",
+      "first;",
+      "",
+      "return() => {",
+      " second;",
+      "};",
+      "},[third]);"
+    ],
+    "description": "create useEffect"
+  },
+
+  "create useState": {
+    "prefix": "useStateSnippet",
+    "body": ["const [first, setfirst] = useState(second);"],
+    "description": "useState"
+  }
+}
